@@ -23,6 +23,7 @@ PROCESSED_PAY_METHOD = 'Ds_ProcessedPayMethod'
 AMOUNT_EURO = 'Ds_Amount_Euro'
 PARTIAL_PAYMENT='Ds_MerchantPartialPayment'
 BIZUM_CUENTA_TRUNCADA='Ds_Bizum_CuentaTruncada'
+BIZUM_ID_OPER='Ds_Bizum_IdOper'
 
 
 RESPONSE_MAP = {
@@ -88,8 +89,8 @@ MERCHANT_PARAMETERS_MAP = {
     'processed_pay_method': PROCESSED_PAY_METHOD,
     'amount_euro': AMOUNT_EURO,
     'partial_payment':PARTIAL_PAYMENT,
-    'bizum_cuenta_truncada':BIZUM_CUENTA_TRUNCADA
-
+    'bizum_cuenta_truncada':BIZUM_CUENTA_TRUNCADA,
+    'bizun_id_oper':BIZUM_ID_OPER
 }
 
 
