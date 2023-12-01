@@ -24,7 +24,7 @@ AMOUNT_EURO = 'Ds_Amount_Euro'
 PARTIAL_PAYMENT='Ds_MerchantPartialPayment'
 BIZUM_CUENTA_TRUNCADA='Ds_Bizum_CuentaTruncada'
 BIZUM_ID_OPER='Ds_Bizum_IdOper'
-
+BIZUM_BIZUM_MOBILE_NUMBER='Ds_Bizum_MobileNumber'
 
 RESPONSE_MAP = {
     '0000': 'Transacción autorizada para pagos y preautorizaciones',
@@ -90,7 +90,8 @@ MERCHANT_PARAMETERS_MAP = {
     'amount_euro': AMOUNT_EURO,
     'partial_payment':PARTIAL_PAYMENT,
     'bizum_cuenta_truncada':BIZUM_CUENTA_TRUNCADA,
-    'bizun_id_oper':BIZUM_ID_OPER
+    'bizun_id_oper':BIZUM_ID_OPER,
+    'bizum_mobile_number':BIZUM_BIZUM_MOBILE_NUMBER,
 }
 
 
